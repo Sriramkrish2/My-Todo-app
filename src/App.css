@@ -1,0 +1,46 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.todo-wrapper {
+  margin: auto;
+  max-width: 30rem;
+  width: 100%;
+}
+
+.todo-status-wrapper {
+  display: flex;
+}
+
+.todo-status-toggle {
+  margin: 1rem 1rem 0rem 0rem;
+  height: 2.5rem;
+  min-width: 5rem;
+}
+
+
