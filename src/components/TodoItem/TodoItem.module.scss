@@ -1,0 +1,34 @@
+.todo-item {
+    display: flex;
+    margin-top: 1rem;
+    padding-top: .5rem;
+    height: 2.5rem;
+    text-align: left;
+    padding-left: .25rem;   
+    background-color: white;
+}
+
+.todo-item-title {
+    margin-right: .5rem;
+    width: 100%;
+    padding-left: .25rem;
+}
+
+.todo-item-complete, .todo-item-delete {
+    margin-right: .5rem;
+}
+
+.todo-item-complete {
+    cursor: pointer;
+    color:rgb(62, 223, 161);
+    width:2rem;
+    height: 2rem;
+}
+
+
+.todo-item-delete {
+    cursor: pointer;
+    color: rgb(246, 90, 90);
+    width:2rem;
+    height: 2rem;
+}
